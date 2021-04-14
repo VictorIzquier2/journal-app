@@ -45,14 +45,15 @@
     padding-bottom: 20px;
     width: 100%;
   }
-
-  .auth__alert-error {
-    background-color: red;
-    border-radius: 5px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    padding: 5px;
-  }
+  
+}
+.auth__alert-error {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
 }
